@@ -3,7 +3,7 @@
 
 ## 🧑🏻‍💻 백준
 <details>
-  <summary style="font-size: 16;"><b>토글을 열고 Command + F 로 백준 번호를 검색해서 찾아보세 🔎</b></summary>
+  <summary style="font-size: 16;"><b>토글을 열고 Command + F 로 백준 번호를 검색해서 찾아보세요 🔎</b></summary>
   
   |번호|날짜|카테고리|문제|풀이|
   |:-:|:-:|:-:|:-:|:-:|
