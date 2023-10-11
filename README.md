@@ -5,20 +5,26 @@
 
 ## Commit Convention
 ### Subject
+\- First letter should be capitalized<br/>
+\- Period mark should not be used<br/>
+\- Verb comes front when written in English<br/>
+\- No past tense should be used<br/>
+\- Subject should be written in less then 50 letters<br/>
 |Gitmoji|Tag:|Subject|
 |:-:|:-|:-|
 |📝|Add:|Create new file|
 |📚|Docs:|Update documents|
-|🎉|Init:|Start new quiz|
-|♻️|Refector:|Refector code|
+|🎉|Init:|Start new quiz(quiz no)|
+|♻️|Refactor:|Refector code|
 |🚚|Rename:|Rename file or folder|
 |⚠️|Fail:|Fail quiz|
 |🚀|Success:|Success quiz|
 <br/>
 
 ### Body
-⚠️ Fail: 실패 사유, 이전 코드 대비 보완한 점<br/>
-🚀 Success: 메모리, 시간
+\- What is changed and for what reason is more important compare to how it is changed<br/>
+\- ⚠️ Fail: 실패 사유, 이전 코드 대비 보완한 점<br/>
+\- 🚀 Success: 메모리, 시간
 
 <br/>
 
