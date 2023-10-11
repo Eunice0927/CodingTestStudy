@@ -12,10 +12,12 @@
 \- Subject should be written in less then 50 letters<br/>
 |Gitmoji|Tag:|Subject|
 |:-:|:-|:-|
-|📝|Add:|Create new file|
+|📰|Add:|Create new file|
 |📚|Docs:|Update documents|
 |🎉|Init:|Start new quiz(quiz no)|
+|📝|Comment:|Add or edit comments|
 |♻️|Refactor:|Refector code|
+|🎨|Style:|Change code style, Add Semi-colon, No change on business logic|
 |🚚|Rename:|Rename file or folder|
 |⚠️|Fail:|Fail quiz|
 |🚀|Success:|Success quiz|
