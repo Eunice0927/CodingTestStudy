@@ -5,8 +5,6 @@
 //  Created by Eunsu JEONG on 2023/10/11.
 //
 
-import Foundation
-
 /* 문제 */
 // 오늘은 혜아의 면접 날이다. 면접 준비를 열심히 해서 앞선 질문들을 잘 대답한 혜아는 이제 마지막으로 칠판에 직접 코딩하는 문제를 받았다.
 // 혜아가 받은 문제는 두 수를 더하는 문제였다. C++ 책을 열심히 읽었던 혜아는 간단히 두 수를 더하는 코드를 칠판에 적었다.
@@ -24,6 +22,8 @@ import Foundation
 /* 예제 */
 // 4 -> long int
 // 20 -> long long long long long int
+
+import Foundation
 
 func quiz25314() {
     if let n = Int(readLine() ?? "") {
