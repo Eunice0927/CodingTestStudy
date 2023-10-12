@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9E0EBE5A2AD6B07200F9ED6F /* 15552.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0EBE592AD6B07200F9ED6F /* 15552.swift */; };
 		9E0EBE5D2AD6E5D200F9ED6F /* 25314.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0EBE5C2AD6E5D200F9ED6F /* 25314.swift */; };
+		9E6A7C682AD7A9F700EE2CF1 /* 10952.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6A7C672AD7A9F700EE2CF1 /* 10952.swift */; };
 		9E819D412AD6783A00F49800 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E819D402AD6783A00F49800 /* main.swift */; };
 		9E819D4C2AD6789A00F49800 /* 11382.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E819D4B2AD6789A00F49800 /* 11382.swift */; };
 /* End PBXBuildFile section */
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		9E0EBE592AD6B07200F9ED6F /* 15552.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15552.swift; sourceTree = "<group>"; };
 		9E0EBE5C2AD6E5D200F9ED6F /* 25314.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25314.swift; sourceTree = "<group>"; };
+		9E6A7C672AD7A9F700EE2CF1 /* 10952.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10952.swift; sourceTree = "<group>"; };
 		9E819D3D2AD6783A00F49800 /* CodingTestStudy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTestStudy; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E819D402AD6783A00F49800 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9E819D4B2AD6789A00F49800 /* 11382.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11382.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				9E819D4B2AD6789A00F49800 /* 11382.swift */,
 				9E0EBE592AD6B07200F9ED6F /* 15552.swift */,
 				9E0EBE5C2AD6E5D200F9ED6F /* 25314.swift */,
+				9E6A7C672AD7A9F700EE2CF1 /* 10952.swift */,
 			);
 			path = BaekJoon;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			files = (
 				9E0EBE5A2AD6B07200F9ED6F /* 15552.swift in Sources */,
 				9E0EBE5D2AD6E5D200F9ED6F /* 25314.swift in Sources */,
+				9E6A7C682AD7A9F700EE2CF1 /* 10952.swift in Sources */,
 				9E819D412AD6783A00F49800 /* main.swift in Sources */,
 				9E819D4C2AD6789A00F49800 /* 11382.swift in Sources */,
 			);
