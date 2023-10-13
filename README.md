@@ -51,4 +51,5 @@
   |2|2023-10-11|반복문|[15552 빠른 A+B](https://www.acmicpc.net/problem/15552)|[Code](/CodingTestStudy/BaekJoon/15552.swift)|미해결|
   |3|2023-10-11|반복문|[25314 코딩은 체육과목 입니다](https://www.acmicpc.net/problem/25314)|[Code](/CodingTestStudy/BaekJoon/25314.swift)||
   |4|2023-10-12|반복문|[10952 A + B - 5](https://www.acmicpc.net/problem/10952)|[Code](/CodingTestStudy/BaekJoon/10952.swift)||
+  |5|2023-10-13|반복문|[10951 A + B - 4](https://www.acmicpc.net/problem/10951)|[Code](/CodingTestStudy/BaekJoon/10951.swift)||
 </details>
