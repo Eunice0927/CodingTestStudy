@@ -19,15 +19,16 @@
 import Foundation
 
 func quiz10951() {
-    let inputString: String = readLine() ?? ""
-    let array = inputString.split(separator: " ")
-    var answer: Int = 0
-    
-    for i in 0..<array.count {
-        if let number = Int(array[i]) {
-            answer = answer + number
+    while let inputLine = readLine() {
+        let inputString: String = inputLine
+        let array = inputString.split(separator: " ")
+        var answer: Int = 0
+        
+        for i in 0..<array.count {
+            if let number = Int(array[i]) {
+                answer = answer + number
+            }
         }
+        print(answer)
     }
-    print(answer)
-    quiz10951()
 }
