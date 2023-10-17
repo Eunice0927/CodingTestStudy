@@ -52,5 +52,6 @@
   |3|2023-10-11|반복문|[25314 코딩은 체육과목 입니다](https://www.acmicpc.net/problem/25314)|[Code](/CodingTestStudy/BaekJoon/25314.swift)||
   |4|2023-10-12|반복문|[10952 A + B - 5](https://www.acmicpc.net/problem/10952)|[Code](/CodingTestStudy/BaekJoon/10952.swift)||
   |5|2023-10-13|반복문|[10951 A + B - 4](https://www.acmicpc.net/problem/10951)|[Code](/CodingTestStudy/BaekJoon/10951.swift)||
-  |6|2023-10-16|반복문|[10807 개수 세기](https://www.acmicpc.net/problem/10807)|[Code](/CodingTestStudy/BaekJoon/10807.swift)||
+  |6|2023-10-16|1차원 배열|[10807 개수 세기](https://www.acmicpc.net/problem/10807)|[Code](/CodingTestStudy/BaekJoon/10807.swift)||
+  |7|2023-10-17|1차원 배열|[10871 X보다 작은 수](https://www.acmicpc.net/problem/10871)|[Code](/CodingTestStudy/BaekJoon/10871.swift)||
 </details>
