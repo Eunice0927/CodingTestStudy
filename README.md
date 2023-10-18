@@ -54,4 +54,5 @@
   |5|2023-10-13|반복문|[10951 A + B - 4](https://www.acmicpc.net/problem/10951)|[Code](/CodingTestStudy/BaekJoon/10951.swift)||
   |6|2023-10-16|1차원 배열|[10807 개수 세기](https://www.acmicpc.net/problem/10807)|[Code](/CodingTestStudy/BaekJoon/10807.swift)||
   |7|2023-10-17|1차원 배열|[10871 X보다 작은 수](https://www.acmicpc.net/problem/10871)|[Code](/CodingTestStudy/BaekJoon/10871.swift)||
+  |8|2023-10-18|1차원 배열|[10818 최소, 최대](https://www.acmicpc.net/problem/10818)|[Code](/CodingTestStudy/BaekJoon/10818.swift)||
 </details>
