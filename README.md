@@ -57,4 +57,5 @@
   |8|2023-10-18|1차원 배열|[10818 최소, 최대](https://www.acmicpc.net/problem/10818)|[Code](/CodingTestStudy/BaekJoon/10818.swift)||
   |9|2023-10-19|1차원 배열|[2562 최댓값](https://www.acmicpc.net/problem/2562)|[Code](/CodingTestStudy/BaekJoon/2562.swift)||
   |10|2023-10-20|1차원 배열|[10810 공 넣기](https://www.acmicpc.net/problem/10810)|[Code](/CodingTestStudy/BaekJoon/10810.swift)||
+  |11|2023-10-23|1차원 배열|[10813 공 바꾸기](https://www.acmicpc.net/problem/10813)|[Code](/CodingTestStudy/BaekJoon/10813.swift)||
 </details>
