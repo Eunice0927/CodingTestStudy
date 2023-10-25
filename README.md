@@ -59,4 +59,5 @@
   |10|2023-10-20|1차원 배열|[10810 공 넣기](https://www.acmicpc.net/problem/10810)|[Code](/CodingTestStudy/BaekJoon/10810.swift)||
   |11|2023-10-23|1차원 배열|[10813 공 바꾸기](https://www.acmicpc.net/problem/10813)|[Code](/CodingTestStudy/BaekJoon/10813.swift)||
   |12|2023-10-24|1차원 배열|[5597 과제 안 내신 분..?](https://www.acmicpc.net/problem/5597)|[Code](/CodingTestStudy/BaekJoon/5597.swift)||
+  |13|2023-10-25|1차원 배열|[3052 나머지](https://www.acmicpc.net/problem/3052)|[Code](/CodingTestStudy/BaekJoon/3052.swift)||
 </details>
