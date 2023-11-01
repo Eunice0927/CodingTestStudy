@@ -21,7 +21,7 @@ import Foundation
 func quiz10871() {
     let firstLine: String = (readLine() ?? "")
     let firstArray = firstLine.split(separator: " ")
-    let secondLineLength = Int(firstArray[0])
+//    let secondLineLength = Int(firstArray[0])
     let criterion: Int = Int(firstArray[1]) ?? 0
     let secondLine: String = (readLine() ?? "")
     let numberArray = secondLine.split(separator: " ")

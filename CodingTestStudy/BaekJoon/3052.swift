@@ -36,6 +36,6 @@ func quiz3052() {
         let number: Int = Int(readLine()!)!
         inputNumber.append(number)
     }
-    var newSet: Set<Int> = Set(inputNumber.map{ $0 % 42 })
+    let newSet: Set<Int> = Set(inputNumber.map{ $0 % 42 })
     print(newSet.count)
 }
