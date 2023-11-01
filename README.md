@@ -62,4 +62,5 @@
   |13|2023-10-25|1차원 배열|[3052 나머지](https://www.acmicpc.net/problem/3052)|[Code](/CodingTestStudy/BaekJoon/3052.swift)||
   |14|2023-10-26|1차원 배열|[10811 바구니 뒤집기](https://www.acmicpc.net/problem/10811)|[Code](/CodingTestStudy/BaekJoon/10811.swift)||
   |15|2023-10-31|1차원 배열|[1546 평균](https://www.acmicpc.net/problem/1546)|[Code](/CodingTestStudy/BaekJoon/1546.swift)||
+  |16|2023-10-31|문자열|[27866 문자와 문자열](https://www.acmicpc.net/problem/27866)|[Code](/CodingTestStudy/BaekJoon/27866.swift)||
 </details>
