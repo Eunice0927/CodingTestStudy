@@ -65,4 +65,5 @@
   |16|2023-10-31|문자열|[27866 문자와 문자열](https://www.acmicpc.net/problem/27866)|[Code](/CodingTestStudy/BaekJoon/27866.swift)||
   |17|2023-11-01|문자열|[2743 단어 길이 재기](https://www.acmicpc.net/problem/2743)|[Code](/CodingTestStudy/BaekJoon/2743.swift)||
   |18|2023-11-02|문자열|[9086 문자열](https://www.acmicpc.net/problem/9086)|[Code](/CodingTestStudy/BaekJoon/9086.swift)||
+  |19|2023-11-03|문자열|[11654 아스키 코드](https://www.acmicpc.net/problem/11654)|[Code](/CodingTestStudy/BaekJoon/11654.swift)||
 </details>
