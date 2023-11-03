@@ -59,7 +59,6 @@
 		9EA365E12AE8977400DBAC68 /* 5597.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5597.swift; sourceTree = "<group>"; };
 		9EA365E32AE89B5700DBAC68 /* 3052.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3052.swift; sourceTree = "<group>"; };
 		9EA4D65F2AF474FB0037AABA /* 11654.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11654.swift; sourceTree = "<group>"; };
-		9EA4D6612AF4B06D0037AABA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		9EE2BC202AE279A6008A87E2 /* 10810.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10810.swift; sourceTree = "<group>"; };
 		9EF9CBE22ADCBAF2000EF757 /* 10807.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10807.swift; sourceTree = "<group>"; };
 		9EF9CBEC2ADE0A30000EF757 /* 10871.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10871.swift; sourceTree = "<group>"; };
@@ -99,7 +98,6 @@
 				9E819D402AD6783A00F49800 /* main.swift */,
 				9E819D482AD6784F00F49800 /* Programmers */,
 				9E819D472AD6784300F49800 /* BaekJoon */,
-				9EA4D6612AF4B06D0037AABA /* .gitignore */,
 			);
 			path = CodingTestStudy;
 			sourceTree = "<group>";
