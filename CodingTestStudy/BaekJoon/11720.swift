@@ -26,12 +26,12 @@
 import Foundation
 
 func quiz11720() {
-    let numberQty: Int = Int(readLine()!)!
-    let numberArray = readLine()!.split(separator: "")
+    let _: Int = Int(readLine()!)!
+    let numbers = readLine()!
     var sum: Int = 0
     
-    for i in 0..<numberQty {
-        let number: Int = Int(String(numberArray[i]))!
+    for i in numbers {
+        let number: Int = Int(String(i))!
         sum += number
     }
     print(sum)
