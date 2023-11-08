@@ -30,6 +30,6 @@ func quiz10809() {
         }
         index += 1
     }
-    var sortedAlphabetsValues = alphabets.sorted{ $0.key < $1.key }.map{ $0.value }
+    let sortedAlphabetsValues = alphabets.sorted{ $0.key < $1.key }.map{ $0.value }
     print(sortedAlphabetsValues.map{ String($0) }.joined(separator: " "))
 }
