@@ -70,4 +70,5 @@
   |21|2023-11-07|문자열|[10809 알파벳 찾기](https://www.acmicpc.net/problem/10809)|[Code](/CodingTestStudy/BaekJoon/10809.swift)||
   |22|2023-11-08|문자열|[2675 문자열 반복](https://www.acmicpc.net/problem/2675)|[Code](/CodingTestStudy/BaekJoon/2675.swift)||
   |23|2023-11-08|문자열|[1152 단어의 개수](https://www.acmicpc.net/problem/1152)|[Code](/CodingTestStudy/BaekJoon/1152.swift)||
+  |24|2023-11-09|문자열|[2908 상수](https://www.acmicpc.net/problem/2908)|[Code](/CodingTestStudy/BaekJoon/2908.swift)||
 </details>
