@@ -71,4 +71,5 @@
   |22|2023-11-08|문자열|[2675 문자열 반복](https://www.acmicpc.net/problem/2675)|[Code](/CodingTestStudy/BaekJoon/2675.swift)||
   |23|2023-11-08|문자열|[1152 단어의 개수](https://www.acmicpc.net/problem/1152)|[Code](/CodingTestStudy/BaekJoon/1152.swift)||
   |24|2023-11-09|문자열|[2908 상수](https://www.acmicpc.net/problem/2908)|[Code](/CodingTestStudy/BaekJoon/2908.swift)||
+  |25|2023-11-13|문자열|[5622 다이얼](https://www.acmicpc.net/problem/5622)|[Code](/CodingTestStudy/BaekJoon/5622.swift)||
 </details>
