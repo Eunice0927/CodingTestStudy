@@ -21,3 +21,19 @@
 // UNUCIC -> 36
 
 import Foundation
+
+func quiz5622() {
+    let inputText: String = readLine()!
+    var time: Int = 0
+    let alphabets: [String: Int] = ["A": 2, "B": 2, "C": 2, "D": 3, "E": 3,"F":3, "G": 4, "H": 4, "I": 4,
+                                    "J": 5, "K": 5, "L": 5, "M": 6, "N": 6, "O": 6, "P": 7, "Q": 7, "R": 7,
+                                    "S": 8, "T": 8, "U": 8, "V": 9, "W": 9, "X": 9, "Y": 9, "Z": 9]
+    
+    for i in inputText {
+        if let result: Int = alphabets[String(i)] {
+            time += (result + 1)
+        }
+    }
+    
+    print(time)
+}
