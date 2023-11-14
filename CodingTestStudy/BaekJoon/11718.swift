@@ -21,7 +21,7 @@
 import Foundation
 
 func quiz11718() {
-    while let readline = readLine()! {
+    while let readline = readLine() {
         print(readline)
     }
 }
