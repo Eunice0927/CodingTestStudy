@@ -52,6 +52,7 @@
 /* Begin PBXFileReference section */
 		9E00E2152AF326B30048E127 /* 9086.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9086.swift; sourceTree = "<group>"; };
 		9E02CE462B04479D003B9ED2 /* 3003.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3003.swift; sourceTree = "<group>"; };
+		9E02CE682B044F0F003B9ED2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9E0EBE592AD6B07200F9ED6F /* 15552.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15552.swift; sourceTree = "<group>"; };
 		9E0EBE5C2AD6E5D200F9ED6F /* 25314.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25314.swift; sourceTree = "<group>"; };
 		9E136BA42AE0C0E900C144F1 /* 2562.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2562.swift; sourceTree = "<group>"; };
@@ -95,6 +96,7 @@
 		9E819D342AD6783A00F49800 = {
 			isa = PBXGroup;
 			children = (
+				9E02CE682B044F0F003B9ED2 /* README.md */,
 				9E819D3F2AD6783A00F49800 /* CodingTestStudy */,
 				9E819D3E2AD6783A00F49800 /* Products */,
 			);
