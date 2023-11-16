@@ -74,4 +74,5 @@
   |25|2023-11-13|문자열|[5622 다이얼](https://www.acmicpc.net/problem/5622)|[Code](/CodingTestStudy/BaekJoon/5622.swift)||
   |26|2023-11-14|문자열|[11718 그대로 출력](https://www.acmicpc.net/problem/11718)|[Code](/CodingTestStudy/BaekJoon/11718.swift)||
   |27|2023-11-15|심화1|[3003 킹, 퀸, 룩, 비숍, 나이트, 폰](https://www.acmicpc.net/problem/3003)|[Code](/CodingTestStudy/BaekJoon/3003.swift)||
+  |28|2023-11-16|심화1|[2444 별 찍기 - 7, 폰](https://www.acmicpc.net/problem/2444)|[Code](/CodingTestStudy/BaekJoon/2444.swift)||
 </details>
