@@ -25,3 +25,48 @@
  */
 
 import Foundation
+
+func quiz2444() {
+    var starLines: Int = 0
+    
+    if let starLineString: String = readLine() {
+        if let starLineInt: Int = Int(starLineString) {
+            starLines = starLineInt
+        }
+    }
+    
+    for i in 1...starLines {
+        var result: String = ""
+        for _ in 0..<(starLines - i) {
+            result += " "
+        }
+        
+        for _ in 0..<i {
+            result += "*"
+        }
+
+        if i > 1 {
+            for _ in 0..<i - 1 {
+                result += "*"
+            }
+        }
+        print(result)
+    }
+    
+    for i in 1..<starLines {
+        var result = ""
+        for _ in 0..<i {
+            result += " "
+        }
+        for _ in 0..<(starLines - i) {
+            result += "*"
+        }
+
+        if starLines - i > 1 {
+            for _ in 0..<(starLines - i - 1) {
+                result += "*"
+            }
+        }
+        print(result)
+    }
+}
