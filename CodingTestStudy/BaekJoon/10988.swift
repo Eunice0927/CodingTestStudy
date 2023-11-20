@@ -17,3 +17,13 @@
 // baekjoon -> 0
 
 import Foundation
+
+func quiz10988() {
+    let randString: String = readLine()!
+    let reversedString: String = String(randString.reversed())
+    if randString == reversedString {
+        print(1)
+    } else {
+        print(0)
+    }
+}
