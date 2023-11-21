@@ -17,3 +17,38 @@
 // baaa -> A
 
 import Foundation
+
+func quiz1157() {
+    let word = readLine()!.uppercased()
+    var letters: [Character] = []
+    var counts: [Int] = []
+    var maxNumber = 0
+    var finalLetter = ""
+
+    for i in word {
+        if !letters.contains(i) {
+            letters.append(i)
+        }
+    } //letters: 알파벳 중복 없는 배열
+    
+    counts = Array(repeating: 0, count: letters.count)
+    
+    for i in word {
+        for k in 0..<letters.count {
+            if i == letters[k] {
+                counts[k] += 1
+            }
+        }
+    }
+    
+    for i in 0..<counts.count {
+        if counts[i] > maxNumber {
+            maxNumber = counts[i]
+            finalLetter = String(letters[i])
+        } else if counts[i] == maxNumber {
+            finalLetter = "?"
+        }
+    }
+    
+    print(finalLetter)
+}
