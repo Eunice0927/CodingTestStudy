@@ -76,4 +76,5 @@
   |27|2023-11-15|심화1|[3003 킹, 퀸, 룩, 비숍, 나이트, 폰](https://www.acmicpc.net/problem/3003)|[Code](/CodingTestStudy/BaekJoon/3003.swift)||
   |28|2023-11-16|심화1|[2444 별 찍기 - 7](https://www.acmicpc.net/problem/2444)|[Code](/CodingTestStudy/BaekJoon/2444.swift)||
   |29|2023-11-20|심화1|[10988 팰린드롬인지 확인하기](https://www.acmicpc.net/problem/10988)|[Code](/CodingTestStudy/BaekJoon/10988.swift)||
+  |30|2023-11-21|심화1|[1157 단어 공부](https://www.acmicpc.net/problem/1157)|[Code](/CodingTestStudy/BaekJoon/1157.swift)||
 </details>
