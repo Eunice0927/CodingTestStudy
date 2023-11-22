@@ -38,12 +38,22 @@ func quiz2941() {
     
     for i in 0..<input.count - 2 {
         let startIndex = input.index(input.startIndex, offsetBy: i)
-        let endIndex = input.index(input.startIndex, offsetBy: i + 1)
-        let lookupString: String = String(input[startIndex...endIndex])
-//        print("\(i)th: \(lookupString)")
-        
+        let end2Index = input.index(input.startIndex, offsetBy: i + 1)
+        var lookupString: String = String(input[startIndex...end2Index])
+    
         if croatiaLetter.contains(lookupString) {
+//            print("\(i)~\(i + 1)th: \(lookupString)")
             letters -= 1
+        }
+        
+        if i < input.count - 3 {
+            let end3Index = input.index(input.startIndex, offsetBy: i + 2)
+            lookupString = String(input[startIndex...end3Index])
+            
+            if croatiaLetter.contains(lookupString) {
+//                print("\(i)~\(i + 2)th: \(lookupString)")
+                letters -= 2
+            }
         }
     }
     print(letters)
