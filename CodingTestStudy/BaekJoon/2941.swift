@@ -45,20 +45,20 @@ func quiz2941() {
         if index < input.count - 2 {
             let end3Index = input.index(input.startIndex, offsetBy: index + 2)
             lookupString = String(input[startIndex...end3Index])
+//            print("\(index)~\(index + 2)th: \(lookupString)")
             
             if croatiaLetter.contains(lookupString) {
-//                print("\(index)~\(index + 2)th: \(lookupString)")
                 letters -= 2
                 index += 2
-            }
-        } else if index < input.count - 1 {
-            let end2Index = input.index(input.startIndex, offsetBy: index + 1)
-            lookupString = String(input[startIndex...end2Index])
-            
-            if croatiaLetter.contains(lookupString) {
+            } else if index < input.count - 1 {
+                let end2Index = input.index(input.startIndex, offsetBy: index + 1)
+                lookupString = String(input[startIndex...end2Index])
 //                print("\(index)~\(index + 1)th: \(lookupString)")
-                letters -= 1
-                index += 1
+                
+                if croatiaLetter.contains(lookupString) {
+                    letters -= 1
+                    index += 1
+                }
             }
         }
         
