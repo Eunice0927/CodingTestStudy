@@ -30,3 +30,21 @@
 // nljj -> 3
 
 import Foundation
+
+func quiz2941() {
+    let input: String = readLine()!
+    let croatiaLetter = ["c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z="]
+    var letters: Int = input.count
+    
+    for i in 0..<input.count - 2 {
+        let startIndex = input.index(input.startIndex, offsetBy: i)
+        let endIndex = input.index(input.startIndex, offsetBy: i + 1)
+        let lookupString: String = String(input[startIndex...endIndex])
+//        print("\(i)th: \(lookupString)")
+        
+        if croatiaLetter.contains(lookupString) {
+            letters -= 1
+        }
+    }
+    print(letters)
+}
