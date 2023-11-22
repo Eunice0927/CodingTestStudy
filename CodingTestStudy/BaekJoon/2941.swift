@@ -37,7 +37,7 @@ func quiz2941() {
     var letters: Int = input.count
     var index = 0
     
-    while index < input.count {
+    while index < input.count - 1 {
         let startIndex = input.index(input.startIndex, offsetBy: index)
         let endIndex = input.index(input.startIndex, offsetBy: index)
         var lookupString: String = String(input[startIndex...endIndex])
@@ -45,20 +45,22 @@ func quiz2941() {
         if index < input.count - 2 {
             let end3Index = input.index(input.startIndex, offsetBy: index + 2)
             lookupString = String(input[startIndex...end3Index])
-//            print("\(index)~\(index + 2)th: \(lookupString)")
+            //print("\(index)~\(index + 2)th: \(lookupString)")
             
             if croatiaLetter.contains(lookupString) {
                 letters -= 2
                 index += 2
-            } else if index < input.count - 1 {
-                let end2Index = input.index(input.startIndex, offsetBy: index + 1)
-                lookupString = String(input[startIndex...end2Index])
-//                print("\(index)~\(index + 1)th: \(lookupString)")
-                
-                if croatiaLetter.contains(lookupString) {
-                    letters -= 1
-                    index += 1
-                }
+            }
+        }
+        
+        if index < input.count - 1 {
+            let end2Index = input.index(input.startIndex, offsetBy: index + 1)
+            lookupString = String(input[startIndex...end2Index])
+            //print("\(index)~\(index + 1)th: \(lookupString)")
+            
+            if croatiaLetter.contains(lookupString) {
+                letters -= 1
+                index += 1
             }
         }
         
