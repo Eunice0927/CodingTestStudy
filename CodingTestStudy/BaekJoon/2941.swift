@@ -35,26 +35,35 @@ func quiz2941() {
     let input: String = readLine()!
     let croatiaLetter = ["c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z="]
     var letters: Int = input.count
+    var index = 0
     
-    for i in 0..<input.count - 2 {
-        let startIndex = input.index(input.startIndex, offsetBy: i)
-        let end2Index = input.index(input.startIndex, offsetBy: i + 1)
-        var lookupString: String = String(input[startIndex...end2Index])
+    while index < input.count {
+        let startIndex = input.index(input.startIndex, offsetBy: index)
+        let endIndex = input.index(input.startIndex, offsetBy: index)
+        var lookupString: String = String(input[startIndex...endIndex])
     
-        if croatiaLetter.contains(lookupString) {
-//            print("\(i)~\(i + 1)th: \(lookupString)")
-            letters -= 1
-        }
-        
-        if i < input.count - 3 {
-            let end3Index = input.index(input.startIndex, offsetBy: i + 2)
+        if index < input.count - 2 {
+            let end3Index = input.index(input.startIndex, offsetBy: index + 2)
             lookupString = String(input[startIndex...end3Index])
             
             if croatiaLetter.contains(lookupString) {
-//                print("\(i)~\(i + 2)th: \(lookupString)")
+//                print("\(index)~\(index + 2)th: \(lookupString)")
                 letters -= 2
+                index += 2
+            }
+        } else if index < input.count - 1 {
+            let end2Index = input.index(input.startIndex, offsetBy: index + 1)
+            lookupString = String(input[startIndex...end2Index])
+            
+            if croatiaLetter.contains(lookupString) {
+//                print("\(index)~\(index + 1)th: \(lookupString)")
+                letters -= 1
+                index += 1
             }
         }
+        
+        index += 1
+//        print(index)
     }
     print(letters)
 }
