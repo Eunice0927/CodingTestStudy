@@ -77,4 +77,5 @@
   |28|2023-11-16|심화1|[2444 별 찍기 - 7](https://www.acmicpc.net/problem/2444)|[Code](/CodingTestStudy/BaekJoon/2444.swift)||
   |29|2023-11-20|심화1|[10988 팰린드롬인지 확인하기](https://www.acmicpc.net/problem/10988)|[Code](/CodingTestStudy/BaekJoon/10988.swift)||
   |30|2023-11-21|심화1|[1157 단어 공부](https://www.acmicpc.net/problem/1157)|[Code](/CodingTestStudy/BaekJoon/1157.swift)||
+  |31|2023-11-22|심화1|[2941 크로아티아 알파벳](https://www.acmicpc.net/problem/2941)|[Code](/CodingTestStudy/BaekJoon/2941.swift)||
 </details>
