@@ -48,6 +48,7 @@
   |:-:|:-:|:-:|:-|:-:|:-|
   |1|2023-11-23|Lv.0|[문자열 반복해서 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181950)|[Code](/CodingTestStudy/Programmers/lv0_181950.swift)||
   |2|2023-11-23|Lv.0|[대소문자 바꿔서 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181949)|[Code](/CodingTestStudy/Programmers/lv0_181949.swift)||
+  |3|2023-11-23|Lv.0|[특수문자 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181948)|[Code](/CodingTestStudy/Programmers/lv0_181948.swift)||
 </details>
   
 ## 🧑🏻‍💻 백준
