@@ -46,12 +46,12 @@
   <summary style="font-size: 16;"><b>토글을 열고 Command + F 로 문제 번호를 검색해서 찾아보세요 🔎</b></summary>
   |번호|날짜|카테고리|문제|풀이|비고|
   |:-:|:-:|:-:|:-|:-:|:-|
-  |1|2023-11-23|Lv.0|[문자열 반복해서 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181950)|[Code](/CodingTestStudy/Programmers/lv0_181950.swift)||
-  |2|2023-11-23|Lv.0|[대소문자 바꿔서 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181949)|[Code](/CodingTestStudy/Programmers/lv0_181949.swift)||
-  |3|2023-11-23|Lv.0|[특수문자 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181948)|[Code](/CodingTestStudy/Programmers/lv0_181948.swift)||
-  |4|2023-11-23|Lv.0|[덧셈식 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181947)|[Code](/CodingTestStudy/Programmers/lv0_181947.swift)||
-  |5|2023-11-23|Lv.0|[문자열 붙여서 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181946)|[Code](/CodingTestStudy/Programmers/lv0_181946.swift)||
-  |6|2023-11-23|Lv.0|[문자열 돌리기](https://school.programmers.co.kr/learn/courses/30/lessons/181945)|[Code](/CodingTestStudy/Programmers/lv0_181945.swift)||
+  |1|2023-11-23|Lv.0|[문자열 반복해서 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181950)|[Code](/CodingTestStudy/Programmers/Lv0/181950.swift)||
+  |2|2023-11-23|Lv.0|[대소문자 바꿔서 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181949)|[Code](/CodingTestStudy/Programmers/Lv0/181949.swift)||
+  |3|2023-11-23|Lv.0|[특수문자 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181948)|[Code](/CodingTestStudy/Programmers/Lv0/181948.swift)||
+  |4|2023-11-23|Lv.0|[덧셈식 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181947)|[Code](/CodingTestStudy/Programmers/Lv0/181947.swift)||
+  |5|2023-11-23|Lv.0|[문자열 붙여서 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181946)|[Code](/CodingTestStudy/Programmers/Lv0/181946.swift)||
+  |6|2023-11-23|Lv.0|[문자열 돌리기](https://school.programmers.co.kr/learn/courses/30/lessons/181945)|[Code](/CodingTestStudy/Programmers/Lv0/181945.swift)||
 </details>
   
 ## 🧑🏻‍💻 백준
