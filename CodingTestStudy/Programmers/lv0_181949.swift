@@ -12,3 +12,17 @@
 // AbCdEfG
 
 import Foundation
+
+func quiz181949() {
+    let s1 = readLine()!
+    var result: String = ""
+    
+    for i in s1 {
+        if i.isLowercase {
+            result += i.uppercased()
+        } else {
+            result += i.lowercased()
+        }
+    }
+    print(result)
+}
