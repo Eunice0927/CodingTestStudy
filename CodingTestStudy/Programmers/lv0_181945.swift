@@ -21,3 +21,11 @@
  */
 
 import Foundation
+
+func quiz181945() {
+    let s1 = readLine()!
+    
+    for i in s1 {
+        print(i)
+    }
+}
