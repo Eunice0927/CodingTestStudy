@@ -41,6 +41,14 @@
 <br/>
 <br/>
 
+## 🧑🏻‍💻 프로그래머스
+<details>
+  <summary style="font-size: 16;"><b>토글을 열고 Command + F 로 문제 번호를 검색해서 찾아보세요 🔎</b></summary>
+  |번호|날짜|카테고리|문제|풀이|비고|
+  |:-:|:-:|:-:|:-|:-:|:-|
+  |1|2023-11-23|Lv.0|[문자열 반복해서 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181950)|[Code](/CodingTestStudy/Programmers/lv0_181950.swift)||
+</details>
+  
 ## 🧑🏻‍💻 백준
 <details>
   <summary style="font-size: 16;"><b>토글을 열고 Command + F 로 백준 번호를 검색해서 찾아보세요 🔎</b></summary>
