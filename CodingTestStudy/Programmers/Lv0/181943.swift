@@ -20,3 +20,29 @@
 // "HelloWorld"
 
 import Foundation
+
+func quiz181943(_ my_string: String, _ overwrite_string: String, _ s: Int) -> String {
+    var resultArray: [String] = []
+    var overwriteArray: [String] = []
+    let changeLength = overwrite_string.count
+    var result = ""
+    
+    for i in my_string {
+        resultArray.append(String(i))
+    }
+    
+    for i in overwrite_string {
+        overwriteArray.append(String(i))
+    }
+    
+    for i in 0..<changeLength {
+        let index = i + 2
+        resultArray[index] = overwriteArray[i]
+    }
+    
+    for i in resultArray {
+        result += i
+    }
+    
+    return result
+}
