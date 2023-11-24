@@ -14,3 +14,12 @@
 // 100 is even
 
 import Foundation
+
+func quiz181944() {
+    let a = Int(readLine()!)!
+    if a % 2 == 0 {
+        print("\(a) is even")
+    } else {
+        print("\(a) is odd")
+    }
+}
