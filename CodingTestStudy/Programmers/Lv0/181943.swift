@@ -36,7 +36,7 @@ func quiz181943(_ my_string: String, _ overwrite_string: String, _ s: Int) -> St
     }
     
     for i in 0..<changeLength {
-        let index = i + 2
+        let index = i + s
         resultArray[index] = overwriteArray[i]
     }
     
