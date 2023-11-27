@@ -19,3 +19,10 @@
 // 991
 
 import Foundation
+
+func quiz181939(_ a:Int, _ b:Int) -> Int {
+    let firstCase: Int = Int(String(a) + String(b)) ?? 0
+    let secondCase: Int = Int(String(b) + String(a)) ?? 0
+    
+    return firstCase >= secondCase ? firstCase : secondCase
+}
