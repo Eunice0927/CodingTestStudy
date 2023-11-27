@@ -14,3 +14,13 @@
 // "abc"
 
 import Foundation
+
+func quiz181941(_ arr:[String]) -> String {
+    var result = ""
+    
+    for i in 0..<arr.count {
+        result += arr[i]
+    }
+    
+    return result
+}
