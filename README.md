@@ -53,6 +53,13 @@
   |4|2023-11-23|Lv.0|[181947 덧셈식 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181947)|[Code](/CodingTestStudy/Programmers/Lv0/181947.swift)||
   |5|2023-11-23|Lv.0|[181946 문자열 붙여서 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181946)|[Code](/CodingTestStudy/Programmers/Lv0/181946.swift)||
   |6|2023-11-23|Lv.0|[181945 문자열 돌리기](https://school.programmers.co.kr/learn/courses/30/lessons/181945)|[Code](/CodingTestStudy/Programmers/Lv0/181945.swift)||
+  |7|2023-11-24|Lv.0|[181944 홀짝 구분하기](https://school.programmers.co.kr/learn/courses/30/lessons/181944)|[Code](/CodingTestStudy/Programmers/Lv0/181944.swift)||
+  |8|2023-11-24|Lv.0|[181943 문자열 겹쳐쓰기](https://school.programmers.co.kr/learn/courses/30/lessons/181943)|[Code](/CodingTestStudy/Programmers/Lv0/181943.swift)||
+  |9|2023-11-27|Lv.0|[181942 문자열 섞기](https://school.programmers.co.kr/learn/courses/30/lessons/181942)|[Code](/CodingTestStudy/Programmers/Lv0/181942.swift)||
+  |10|2023-11-27|Lv.0|[181941 문자 리스트를 문자열로 변환하기](https://school.programmers.co.kr/learn/courses/30/lessons/181941)|[Code](/CodingTestStudy/Programmers/Lv0/181941.swift)||
+  |11|2023-11-27|Lv.0|[181940 문자열 곱하기](https://school.programmers.co.kr/learn/courses/30/lessons/181940)|[Code](/CodingTestStudy/Programmers/Lv0/181940.swift)||
+  |12|2023-11-27|Lv.0|[181939 더 크게 합치기](https://school.programmers.co.kr/learn/courses/30/lessons/181939)|[Code](/CodingTestStudy/Programmers/Lv0/181939.swift)||
+  |13|2023-11-27|Lv.0|[181938 두 수의 연산값 비교하기](https://school.programmers.co.kr/learn/courses/30/lessons/181938)|[Code](/CodingTestStudy/Programmers/Lv0/181938.swift)||
 </details>
   
 ## 🧑🏻‍💻 백준
