@@ -15,3 +15,15 @@
 // "stringstringstring"
 
 import Foundation
+
+func quiz181940(_ my_string:String, _ k:Int) -> String {
+    var i = 0
+    var result = ""
+    
+    while i < k {
+        result += my_string
+        i += 1
+    }
+    
+    return result
+}
