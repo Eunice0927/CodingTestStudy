@@ -16,3 +16,23 @@
 // "ababababab"
 
 import Foundation
+
+func quiz181942(_ str1:String, _ str2:String) -> String {
+    var firstArrary = [String]()
+    var secondArrary = [String]()
+    var result = ""
+    
+    for i in str1 {
+        firstArrary.append(String(i))
+    }
+    
+    for i in str2 {
+        secondArrary.append(String(i))
+    }
+    
+    for i in 0..<str1.count {
+        result += firstArrary[i] + secondArrary[i]
+    }
+    
+    return result
+}
