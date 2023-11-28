@@ -21,3 +21,7 @@
  */
 
 import Foundation
+
+func quiz181937(_ num:Int, _ n:Int) -> Int {
+    return num % n == 0 ? 1 : 0
+}
