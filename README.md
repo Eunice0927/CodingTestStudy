@@ -61,6 +61,7 @@
   |12|2023-11-27|Lv.0|[181939 더 크게 합치기](https://school.programmers.co.kr/learn/courses/30/lessons/181939)|[Code](/CodingTestStudy/Programmers/Lv0/181939.swift)||
   |13|2023-11-27|Lv.0|[181938 두 수의 연산값 비교하기](https://school.programmers.co.kr/learn/courses/30/lessons/181938)|[Code](/CodingTestStudy/Programmers/Lv0/181938.swift)||
   |14|2023-11-28|Lv.0|[181937 n의 배수](https://school.programmers.co.kr/learn/courses/30/lessons/181937)|[Code](/CodingTestStudy/Programmers/Lv0/181937.swift)||
+  |15|2023-11-29|Lv.0|[181936 공배수](https://school.programmers.co.kr/learn/courses/30/lessons/181936)|[Code](/CodingTestStudy/Programmers/Lv0/181936.swift)||
 </details>
   
 ## 🧑🏻‍💻 백준
