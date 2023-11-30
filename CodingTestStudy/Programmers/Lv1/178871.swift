@@ -25,13 +25,10 @@ func quiz178871(_ players:[String], _ callings:[String]) -> [String] {
     var currentRank = players
     
     for i in 0..<callings.count {
-        for k in 0..<currentRank.count {
-            if currentRank[k] == callings[i] {
-                let tempPlayer = currentRank[k - 1]
-                currentRank[k - 1] = currentRank[k]
-                currentRank[k] = tempPlayer
-            }
-        }
+        let playerRank = currentRank.firstIndex(of: callings[i]) ?? 0
+        let tempPlayer = currentRank[playerRank - 1]
+        currentRank[playerRank - 1] = currentRank[playerRank]
+        currentRank[playerRank] = tempPlayer
     }
     return currentRank
 }
