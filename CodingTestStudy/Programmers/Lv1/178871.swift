@@ -20,3 +20,18 @@
  */
 
 import Foundation
+
+func quiz178871(_ players:[String], _ callings:[String]) -> [String] {
+    var currentRank = players
+    
+    for i in 0..<callings.count {
+        for k in 0..<currentRank.count {
+            if currentRank[k] == callings[i] {
+                let tempPlayer = currentRank[k - 1]
+                currentRank[k - 1] = currentRank[k]
+                currentRank[k] = tempPlayer
+            }
+        }
+    }
+    return currentRank
+}
