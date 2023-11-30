@@ -23,12 +23,25 @@ import Foundation
 
 func quiz178871(_ players:[String], _ callings:[String]) -> [String] {
     var currentRank = players
+    var rankDict: [String: Int] = [:]
+    
+    for i in 0..<players.count {
+        rankDict[players[i]] = i
+    }
     
     for i in 0..<callings.count {
-        let playerRank = currentRank.firstIndex(of: callings[i]) ?? 0
-        let tempPlayer = currentRank[playerRank - 1]
-        currentRank[playerRank - 1] = currentRank[playerRank]
-        currentRank[playerRank] = tempPlayer
+        let calledPlayer = callings[i]
+        let playerIndex = rankDict[calledPlayer] ?? 1
+        let previousPlayer = currentRank[playerIndex - 1]
+        
+        // 결과 배열에서 순서 바꿈
+        currentRank[playerIndex - 1] = calledPlayer
+        currentRank[playerIndex] = previousPlayer
+        
+        // 딕셔너리 순서 바꿈
+        rankDict[calledPlayer]! -= 1
+        rankDict[previousPlayer]! += 1
     }
+
     return currentRank
 }
