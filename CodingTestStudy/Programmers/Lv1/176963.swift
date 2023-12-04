@@ -31,3 +31,21 @@
  */
 
 import Foundation
+
+func quiz176963(_ name:[String], _ yearning:[Int], _ photo:[[String]]) -> [Int] {
+    var scores: [String: Int] = [:]
+    var result = [Int]()
+    
+    for i in 0..<name.count {
+        scores[name[i]] = yearning[i]
+    }
+    
+    for i in 0..<photo.count {
+        var score = 0
+        for k in 0..<photo[i].count {
+            score += scores[photo[i][k]] ?? 0
+        }
+        result.append(score)
+    }
+    return result
+}
