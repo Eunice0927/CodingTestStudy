@@ -17,6 +17,13 @@
 //공원의 가로 길이가 W, 세로 길이가 H라고 할 때, 공원의 좌측 상단의 좌표는 (0, 0), 우측 하단의 좌표는 (H - 1, W - 1) 입니다.
 //공원을 나타내는 문자열 배열 park, 로봇 강아지가 수행할 명령이 담긴 문자열 배열 routes가 매개변수로 주어질 때, 
 //로봇 강아지가 모든 명령을 수행 후 놓인 위치를 [세로 방향 좌표, 가로 방향 좌표] 순으로 배열에 담아 return 하도록 solution 함수를 완성해주세요.
+//S : 시작 지점
+//O : 이동 가능한 통로
+//X : 장애물
+//N : 북쪽으로 주어진 칸만큼 이동합니다.
+//S : 남쪽으로 주어진 칸만큼 이동합니다.
+//W : 서쪽으로 주어진 칸만큼 이동합니다.
+//E : 동쪽으로 주어진 칸만큼 이동합니다.
 /* 예제 */
 /*
  park = ["SOO","OOO","OOO"]
@@ -37,5 +44,88 @@
 import Foundation
 
 func quiz172928(_ park:[String], _ routes:[String]) -> [Int] {
-    return []
+    let parkWidth = park[0].count - 1
+    let parkHeight = park.count - 1
+    var dog = [0, 0]
+    var parkMap = Array(repeating: Array(repeating: "", count: parkWidth + 1), count: parkHeight + 1)
+    let directions = ["E": 1, "S": 1, "W": -1, "N": -1]
+    
+    for i in 0..<park.count {
+        parkMap[i] = park[i].map { String($0) }
+        if let startIndex = parkMap[i].firstIndex(of: "S") {
+            dog = [i, startIndex]
+        }
+    }
+//    print(parkMap)
+//    print("dog start: \(dog)")
+    
+    for i in 0..<routes.count {
+        let direction: String = routes[i].split(separator: " ").map {String($0)}[0]
+        let directionTo: Int = directions[direction]!
+        let moves: Int = Int(routes[i].split(separator: " ").map {String($0)}[1])!
+        let move = directionTo * moves
+        
+        switch direction {
+        case "E":
+            if dog[1] + move <= parkWidth {
+                var walk: Int = 0
+                for i in 0..<move {
+                    if parkMap[dog[0]][dog[1] + i + 1] != "X" {
+                        walk += 1
+                    } else {
+                        walk = 0
+                        break
+                    }
+//                    print("dog moving E \(i)")
+                }
+                dog[1] = dog[1] + walk
+            }
+        case "W":
+            if dog[1] + move >= 0 {
+                var walk: Int = 0
+                for i in 0..<abs(move) {
+                    if parkMap[dog[0]][dog[1] - i - 1] != "X" {
+                        walk += 1
+                    } else {
+                        walk = 0
+                        break
+                    }
+//                    print("dog moving W \(i)")
+                }
+                dog[1] = dog[1] - walk
+            }
+        case "S":
+            if dog[0] + move <= parkHeight {
+                var walk: Int = 0
+                for i in 0..<move {
+                    if parkMap[dog[0] + i + 1][dog[1]] != "X" {
+                        walk += 1
+                    } else {
+                        walk = 0
+                        break
+                    }
+//                    print("dog moving S \(i)")
+                }
+                dog[0] = dog[0] + walk
+            }
+        case "N":
+            if dog[0] + move >= 0 {
+                var walk: Int = 0
+                for i in 0..<abs(move) {
+                    if parkMap[dog[0] - i - 1][dog[1]] != "X" {
+                        walk += 1
+                    } else {
+                        walk = 0
+                        break
+                    }
+//                    print("dog moving N \(i)")
+                }
+                dog[0] = dog[0] - walk
+            }
+        default:
+            print("Error")
+        }
+    }
+    
+    return dog
 }
