@@ -64,6 +64,7 @@
   |15|2023-11-29|Lv.0|[181936 공배수](https://school.programmers.co.kr/learn/courses/30/lessons/181936)|[Code](/CodingTestStudy/Programmers/Lv0/181936.swift)||
   |16|2023-11-30|Lv.1|[178871 달리기 경주](https://school.programmers.co.kr/learn/courses/30/lessons/178871)|[Code](/CodingTestStudy/Programmers/Lv0/178871.swift)||
   |17|2023-11-29|Lv.1|[176963 추억 점수](https://school.programmers.co.kr/learn/courses/30/lessons/176963)|[Code](/CodingTestStudy/Programmers/Lv0/176963.swift)||
+  |18|2023-12-19|Lv.1|[172928 공원 산책](https://school.programmers.co.kr/learn/courses/30/lessons/172928)|[Code](/CodingTestStudy/Programmers/Lv0/172928.swift)||
 </details>
   
 ## 🧑🏻‍💻 백준
