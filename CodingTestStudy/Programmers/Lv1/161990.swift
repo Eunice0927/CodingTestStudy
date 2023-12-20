@@ -46,5 +46,43 @@
 import Foundation
 
 func quiz161990(_ wallpaper:[String]) -> [Int] {
-    return []
+    //wallpaperValue
+    let width = wallpaper[0].count - 1
+    let height = wallpaper.count - 1
+    var wallpaperArray: [[String]] = Array(repeating: Array(repeating: "", count: width + 1), count: height + 1)
+    //SelectionValue
+    var startX = width
+    var startY = height
+    var endX = 0
+    var endY = 0
+    
+    for i in 0..<wallpaper.count {
+        wallpaperArray[i] = wallpaper[i].map { String($0) }
+    }
+    
+    for h in 0...height {
+        if wallpaperArray[h].contains("#") {
+            if let firstSharp: Int = wallpaperArray[h].firstIndex(of: "#") {
+//                print("firstSharp:\(firstSharp)")
+                if firstSharp < startX {
+                    startX = firstSharp
+//                    print("startX:\(startX)")
+                }
+                if h < startY {
+                    startY = h
+                }
+            }
+            if let lastSharp: Int = wallpaperArray[h].lastIndex(of: "#") {
+                if lastSharp > endX - 1 {
+                    endX = lastSharp + 1
+//                    print("endX:\(endX)")
+                }
+                if h > endY - 1 {
+                    endY = h + 1
+                }
+            }
+        }
+    }
+    
+    return [startY, startX, endY, endX]
 }
