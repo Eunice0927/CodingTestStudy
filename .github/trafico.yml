@@ -41,16 +41,14 @@ user: "qlrmr111"
  name: "🔮 운기"
  color: "#C4EED8"
 
+user: "hjsupernova"
+  name: "🔮 운기"
+  color: "#000000"
+  
 reviewers:
  qlrmr111:
    name: "🔮 운기"
    color: "#000000"
-
-user: "hjsupernova"
-  name: "🔮 운기"
-  color: "#000000"
-
-reviewers:
  hjsupernova: 
    name: "🔮 현진"
    color: "#C4EED8"
