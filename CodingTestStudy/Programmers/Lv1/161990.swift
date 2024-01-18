@@ -87,4 +87,3 @@ func quiz161990(_ wallpaper:[String]) -> [Int] {
     return [startY, startX, endY, endX]
 }
 //this is a test line for the label app
-//this is a test line for the label app
