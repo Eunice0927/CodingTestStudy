@@ -37,13 +37,19 @@ labels:
 # A list of reviewers whose names should be added as tags to PRs, 
 # as long as their review is requested.
 #
+#user: "qlrmr111"
+#  name: "🔮 운기"
+#  color: "#000000"
+user: "hjsupernova"
+  name: "🔮 운기"
+  color: "#000000"
 
 
 # Example
 reviewers:
- qlrmr111:
-   name: "🔮 운기"
-   color: "#000000"
+# qlrmr111:
+#   name: "🔮 운기"
+#   color: "#000000"
  hjsupernova: 
    name: "🔮 현진"
    color: "#C4EED8"
