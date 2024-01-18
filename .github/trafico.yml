@@ -42,7 +42,7 @@ labels:
 # color: "#C4EED8"
 
 # Example
-#reviewers:
-# qlrmr111:
-#   name: "🔮 운기"
-#   color: "#000000"
+reviewers:
+ qlrmr111:
+   name: "🔮 운기"
+   color: "#000000"
