@@ -36,13 +36,10 @@ labels:
 
 # A list of reviewers whose names should be added as tags to PRs, 
 # as long as their review is requested.
-#
-# user: GitHub username
-#   name: Title of label
-#   color: Color of label
-
-# Example
-# reviewers:
-#   userA:
-#     name: "User A"
-#     color: "#000000"
+reviewers:
+  qlrmr111:
+    name: "운기"
+    color: "#C4EED8"
+  hjsupernova:
+    name: "현진"
+    color: "#654321"
