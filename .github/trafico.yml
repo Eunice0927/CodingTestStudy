@@ -37,12 +37,12 @@ labels:
 # A list of reviewers whose names should be added as tags to PRs, 
 # as long as their review is requested.
 #
- user: jes.e.0927@gmail.com
-   name: "🔮 은수"
-   color: "#C4EED8"
+user: Eunice0927
+ name: "🔮 은수"
+ color: "#C4EED8"
 
 # Example
- reviewers:
-   Eunice0927:
-     name: "🔮 은수"
-     color: "#000000"
+reviewers:
+ Eunice0927:
+   name: "🔮 은수"
+   color: "#000000"
