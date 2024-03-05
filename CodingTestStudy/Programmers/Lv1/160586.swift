@@ -38,48 +38,31 @@
 import Foundation
 
 func quiz160586(_ keymap:[String], _ targets:[String]) -> [Int] {
-    let splitKeymaps = keymap.map { keys in
-        keys.map { $0 }
-    }
-    
-    let splitTargets = targets.map { targets in
-        targets.map { $0 }
-    }
-    
     var resultArray = Array(repeating: 0, count: targets.count)
+    var keyDict: [Character: Int] =  [:]
     
-    for targets in splitTargets.enumerated() {
-        var indexes = Array(repeating: 0, count: targets.element.count)
-        var position = 0
-    
-        for target in targets.element {
-            var index = 0
-    //            print("Target: \(target)")
-            for key in splitKeymaps {
-    //                print("Key: \(key)")
-                if let newIndex: Int = key.firstIndex(of: target) {
-                    if index == 0 || newIndex <= index {
-                        index = newIndex + 1
-                    }
-    //                    print("index: \(index), newIndex:\(newIndex)")
-    //                } else {
-    //                    print("No result of \(target) in \(key)")
+    keymap.forEach { keys in
+        keys.enumerated().forEach { key in
+            if let keyDictNumber = keyDict[key.element] {
+                if keyDictNumber > key.offset + 1 {
+                    keyDict[key.element] = key.offset + 1
                 }
+            } else {
+                keyDict[key.element] = key.offset + 1
             }
-    
-            indexes[position] = index
-    //            print("Indexes: \(indexes)")
-            position += 1
-    //            print("---------------------------------------------------")
-        }
-    
-        if let _ = indexes.firstIndex(of: 0) {
-            resultArray[targets.offset] = -1
-        } else {
-            resultArray[targets.offset] = indexes.reduce(0) { $0 + $1 }
         }
     }
     
-    print("===================================================")
+    targets.enumerated().forEach { target in
+        for letter in target.element {
+            guard let index = keyDict[letter] else {
+                resultArray[target.offset] = -1
+                break
+            }
+            
+            resultArray[target.offset] += index
+        }
+    }
+        
     return resultArray
 }
