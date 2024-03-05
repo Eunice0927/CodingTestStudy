@@ -36,3 +36,55 @@
  */
 
 import Foundation
+
+func quiz160586(_ keymap:[String], _ targets:[String]) -> [Int] {
+    let splitKeymaps = keymap.map { keys in
+        keys.split(separator: "")
+    }
+    
+    let splitTargets = targets.map { targets in
+        targets.split(separator: "")
+    }
+    
+    var resultArray = Array(repeating: 0, count: targets.count)
+    
+    splitTargets.enumerated().forEach { targetLetters in
+        var sumOfEachLettersIndex = 0
+        var finalIndexOfEachLetter = Array(repeating: 0, count: targetLetters.element.count)
+//        print(targetLetters)
+        
+        targetLetters.element.enumerated().forEach { letter in
+            var finalIndex = 0
+            
+            for key in splitKeymaps {
+                var currentIndex = 0
+//                print(("letter: \(letter.element), key: \(key)"))
+                if let firstIndex: Int = key.firstIndex(of: letter.element) {
+                    currentIndex = firstIndex + 1
+                    if finalIndex == 0 {
+                        finalIndex = currentIndex
+                    }
+                } else {
+                    currentIndex = -1
+                    finalIndexOfEachLetter[letter.offset] = -1
+                }
+                
+//                print("currentIndex: \(currentIndex), finalIndex: \(finalIndex)")
+                if finalIndex != -1 && currentIndex <= finalIndex {
+                    finalIndexOfEachLetter[letter.offset] = finalIndex
+                }
+//                print("finalIndexOfEachLetter: \(finalIndexOfEachLetter)")
+            }
+//            print("-------------------------------------")
+            if let isNotAvailable = finalIndexOfEachLetter.firstIndex(of: 0) {
+                sumOfEachLettersIndex = -1
+            } else {
+                sumOfEachLettersIndex = finalIndexOfEachLetter.reduce(0) { $0 + $1 }
+            }
+        }
+        resultArray[targetLetters.offset] = sumOfEachLettersIndex
+    }
+    
+    print("===================================================")
+    return resultArray
+}
