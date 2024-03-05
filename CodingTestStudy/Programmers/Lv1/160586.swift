@@ -39,11 +39,11 @@ import Foundation
 
 func quiz160586(_ keymap:[String], _ targets:[String]) -> [Int] {
     let splitKeymaps = keymap.map { keys in
-        keys.split(separator: "")
+        keys.map { $0 }
     }
     
     let splitTargets = targets.map { targets in
-        targets.split(separator: "")
+        targets.map { $0 }
     }
     
     var resultArray = Array(repeating: 0, count: targets.count)
