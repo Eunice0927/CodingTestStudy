@@ -48,41 +48,36 @@ func quiz160586(_ keymap:[String], _ targets:[String]) -> [Int] {
     
     var resultArray = Array(repeating: 0, count: targets.count)
     
-    splitTargets.enumerated().forEach { targetLetters in
-        var sumOfEachLettersIndex = 0
-        var finalIndexOfEachLetter = Array(repeating: 0, count: targetLetters.element.count)
-//        print(targetLetters)
-        
-        targetLetters.element.enumerated().forEach { letter in
-            var finalIndex = 0
-            
+    for targets in splitTargets.enumerated() {
+        var indexes = Array(repeating: 0, count: targets.element.count)
+        var position = 0
+    
+        for target in targets.element {
+            var index = 0
+    //            print("Target: \(target)")
             for key in splitKeymaps {
-                var currentIndex = 0
-//                print(("letter: \(letter.element), key: \(key)"))
-                if let firstIndex: Int = key.firstIndex(of: letter.element) {
-                    currentIndex = firstIndex + 1
-                    if finalIndex == 0 {
-                        finalIndex = currentIndex
+    //                print("Key: \(key)")
+                if let newIndex: Int = key.firstIndex(of: target) {
+                    if index == 0 || newIndex <= index {
+                        index = newIndex + 1
                     }
-                } else {
-                    currentIndex = -1
-                    finalIndexOfEachLetter[letter.offset] = -1
+    //                    print("index: \(index), newIndex:\(newIndex)")
+    //                } else {
+    //                    print("No result of \(target) in \(key)")
                 }
-                
-//                print("currentIndex: \(currentIndex), finalIndex: \(finalIndex)")
-                if finalIndex != -1 && currentIndex <= finalIndex {
-                    finalIndexOfEachLetter[letter.offset] = finalIndex
-                }
-//                print("finalIndexOfEachLetter: \(finalIndexOfEachLetter)")
             }
-//            print("-------------------------------------")
-            if let isNotAvailable = finalIndexOfEachLetter.firstIndex(of: 0) {
-                sumOfEachLettersIndex = -1
-            } else {
-                sumOfEachLettersIndex = finalIndexOfEachLetter.reduce(0) { $0 + $1 }
-            }
+    
+            indexes[position] = index
+    //            print("Indexes: \(indexes)")
+            position += 1
+    //            print("---------------------------------------------------")
         }
-        resultArray[targetLetters.offset] = sumOfEachLettersIndex
+    
+        if let _ = indexes.firstIndex(of: 0) {
+            resultArray[targets.offset] = -1
+        } else {
+            resultArray[targets.offset] = indexes.reduce(0) { $0 + $1 }
+        }
     }
     
     print("===================================================")
