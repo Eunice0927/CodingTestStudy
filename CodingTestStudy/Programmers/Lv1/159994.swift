@@ -59,6 +59,8 @@ func quiz159994(_ cards1:[String], _ cards2:[String], _ goal:[String]) -> String
     
     if cards1Order.sorted() == cards1Order && cards2Order.sorted() == cards2Order {
         resultString = "Yes"
+    } else if cards1 + cards2 == goal || cards2 + cards1 == goal || cards1 == goal || cards2 == goal {
+        resultString = "Yes"
     }
     
     return resultString
