@@ -36,30 +36,25 @@
 import Foundation
 
 func quiz159994(_ cards1:[String], _ cards2:[String], _ goal:[String]) -> String {
-    var goalDict = [String: Int]()
-    var cards1Order = Array(repeating: 0, count: cards1.count)
-    var cards2Order = Array(repeating: 0, count: cards2.count)
+    var goals = goal
+    var cards1 = cards1
+    var cards2 = cards2
+    var verifyTurn = 1
     var resultString = "No"
     
-    goal.enumerated().forEach { goalItem in
-        goalDict[goalItem.element] = goalItem.offset
-    }
-    
-    cards1.enumerated().forEach { card in
-        if let cardIndex = goalDict[card.element] {
-            cards1Order[card.offset] = cardIndex
+    while verifyTurn <= goal.count {
+        if goals.first == cards1.first {
+            goals.removeFirst()
+            cards1.removeFirst()
+        } else if goals.first == cards2.first {
+            goals.removeFirst()
+            cards2.removeFirst()
         }
+        
+        verifyTurn += 1
     }
     
-    cards2.enumerated().forEach { card in
-        if let cardIndex = goalDict[card.element] {
-            cards2Order[card.offset] = cardIndex
-        }
-    }
-    
-    if cards1Order.sorted() == cards1Order && cards2Order.sorted() == cards2Order {
-        resultString = "Yes"
-    } else if cards1 + cards2 == goal || cards2 + cards1 == goal || cards1 == goal || cards2 == goal {
+    if goals.isEmpty {
         resultString = "Yes"
     }
     
