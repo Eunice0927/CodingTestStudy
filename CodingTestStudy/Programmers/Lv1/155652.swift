@@ -44,7 +44,7 @@ func quiz155652(_ s:String, _ skip:String, _ index:Int) -> String {
         guard let letterIndex = alphabets.firstIndex(of: letter) else { return }
         var letterWithIndex = letterIndex + index
         
-        if letterWithIndex > endIndex {
+        while letterWithIndex > endIndex {
             letterWithIndex = letterWithIndex - endIndex - 1
         }
         
