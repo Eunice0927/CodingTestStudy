@@ -27,5 +27,31 @@
 import Foundation
 
 func quiz155652(_ s:String, _ skip:String, _ index:Int) -> String {
-    return ""
+    var alphabets = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",
+                     "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+    var result: [String] = []
+    let skips = skip.map { String($0) }
+    let letters = s.map { String($0) }
+    
+    skips.forEach { skip in
+        guard let skip = alphabets.firstIndex(of: skip) else { return }
+        alphabets.remove(at: skip)
+    }
+    
+    let endIndex = alphabets.count - 1
+    
+    letters.forEach { letter in
+        guard let letterIndex = alphabets.firstIndex(of: letter) else { return }
+        var letterWithIndex = letterIndex + index
+        
+        if letterWithIndex > endIndex {
+            letterWithIndex = letterWithIndex - endIndex - 1
+        }
+        
+        result.append(alphabets[letterWithIndex])
+    }
+    
+    let resultString = String(result.map { Character($0) })
+    
+    return resultString
 }
