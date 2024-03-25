@@ -68,6 +68,7 @@
   |19|2023-12-20|Lv.1|[161990 바탕화면 정리](https://school.programmers.co.kr/learn/courses/30/lessons/161990)|[Code](/CodingTestStudy/Programmers/Lv1/161990.swift)||
   |20|2024-03-05|Lv.1|[160586 대충 만든 자판](https://school.programmers.co.kr/learn/courses/30/lessons/160586)|[Code](/CodingTestStudy/Programmers/Lv1/160586.swift)|[참고 블로그](https://hwanny7.tistory.com/67)|
   |21|2024-03-06|Lv.1|[159994 카드 뭉치](https://school.programmers.co.kr/learn/courses/30/lessons/159994)|[Code](/CodingTestStudy/Programmers/Lv1/159994.swift)||
+  |22|2024-03-25|Lv.1|[155652 둘만의 암호](https://school.programmers.co.kr/learn/courses/30/lessons/155652)|[Code](/CodingTestStudy/Programmers/Lv1/155652.swift)||
 </details>
   
 ## 🧑🏻‍💻 백준
